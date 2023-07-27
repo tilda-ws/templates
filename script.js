@@ -119,7 +119,7 @@ var table = {
 "1988181373":{"id":"81373","name2":"promyshlennost","price1":"1400","price2":"699","name":" Котельное оборудование "},
 "1988081376":{"id":"81376","name2":"prodovolstvennye_tovary","price1":"1400","price2":"699","name":" Зерно, зерноотходы "},
 "1987981377":{"id":"81377","name2":"electronika","price1":"1400","price2":"699","name":" Системы вентилирования, кондиционирования "},
-"1987881383":{"id":"81383","name2":"prodovolstvennye_tovary","price1":"1400","price2":"699","name":" Мед Отрасль "},
+"1987881383":{"id":"81383","name2":"prodovolstvennye_tovary","price1":"1400","price2":"699","name":" Мёд Отрасль "},
 "1987781386":{"id":"81386","name2":"stroitelstvo_stroimaterialy","price1":"1400","price2":"699","name":" Строительные смеси "},
 "1987681389":{"id":"81389","name2":"promyshlennost","price1":"1400","price2":"699","name":" Абразивный инструмент "},
 "1987581391":{"id":"81391","name2":"bytovye_uslugi_dosug_turizm","price1":"1400","price2":"699","name":" Уборка территории "},
@@ -1173,7 +1173,7 @@ var table = {
 "1882785540":{"id":"85540","name2":"delovye_uslugi","price1":"1400","price2":"699","name":" Разнорабочие, подсобники, чернорабочие "},
 "1882685541":{"id":"85541","name2":"delovye_uslugi","price1":"1400","price2":"699","name":" Агентство недвижимости "},
 "1882585542":{"id":"85542","name2":"promyshlennost","price1":"1400","price2":"699","name":" Металлоконструкции, ангары "},
-"1882485545":{"id":"85545","name2":"prodovolstvennye_tovary","price1":"1400","price2":"699","name":" Мед "},
+"1882485545":{"id":"85545","name2":"prodovolstvennye_tovary","price1":"1400","price2":"699","name":" Мёд "},
 "1882385548":{"id":"85548","name2":"promyshlennost","price1":"1400","price2":"699","name":" Ремонт оборудования "},
 "1882285549":{"id":"85549","name2":"organy_vlasti_zhkh_obschestvennye_i_dr_organizacii_hozyaistva","price1":"1400","price2":"699","name":" Сельское хозяйство "},
 "1882185555":{"id":"85555","name2":"promyshlennost","price1":"1400","price2":"699","name":" Металлопрокат "},
@@ -2800,7 +2800,7 @@ $('.article12').append(`
 
 <article id="`+id+`" class="product-card j-product-item product-card--hoverable swiper-slide swiper-slide-active"><div class="product-card__wrapper"><a href="#" data--id="`+id+`" data-remodal-target="modal" draggable="false" class="product-card__link j-card-link j-open-full-product-card"></a><div class="product-card__top-wrap"><button class="product-card__heart j-add-to-postpone" type="button" aria-label="Добавить в избранное" onclick="return add_favorite(this);"></button><div class="product-card__tips product-card__tips--top"></div><div class="product-card__img-wrap img-plug j-thumbnail-wrap">
     <img class="j-thumbnail lazy07" width="460" height="600" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAQAAADB7vUKAAAAEUlEQVR42mNkIAAYRxXQSwEAC5oADbo22BYAAAAASUVORK5CYII=" data-src="https://envatomarket.ru/baza-img-small/`+id+`.webp" alt="`+name+` / `+name3+` / Готовые сайты">
-</div><div class="product-card__tips product-card__tips--bottom"><p class="product-card__tip product-card__tip--sale">-`+percent1+`%</p></div><button data--id="`+id+`" data-remodal-target="modal" class="product-card__fast-view hide-mobile j-open-product-popup" type="button">Быстрый просмотр</button><p class="product-card__adults">`+name4+`</p></div><div class="product-card__middle-wrap"><p class="product-card__price price"><span class="price__wrap"><ins class="price__lower-price">от `+price2+` ₽/мес.</ins><del>`+price1+` ₽/мес.</del></span></p><h2 class="product-card__brand-wrap product-card__brand-wrap--no-wrap"><span class="product-card__name product-card__id">№ `+id+`</span><span class=""> / </span><span class="product-card__brand">`+name+`</span><span class="product-card__name product-card__name3"><span class=""> / </span>`+name3+` / Готовые сайты</span></h2></div><div class="product-card__bottom-wrap"><p class="product-card__rating-wrap"><span class="address-rate-mini address-rate-mini--sm">4.`+rndInt+`</span><span class="product-card__count">`+rndInt1+` оценки</span></p><p class="product-card__sizes j-sizes"></p><p class="product-card__order-wrap"><a class="product-card__add-basket j-add-to-basket btn-main-sm" href="https://wa.me/79603570433?text=https://wb.github.io/ _Добрый день хочу заказать сайт №`+id+`!" target="_blank">Заказать</a></p></div></div></article>
+</div><div class="product-card__tips product-card__tips--bottom"><p class="product-card__tip product-card__tip--sale">-`+percent1+`%</p></div><button data--id="`+id+`" data-remodal-target="modal" class="product-card__fast-view hide-mobile j-open-product-popup" type="button">Быстрый просмотр</button><p class="product-card__adults">`+name4+`</p></div><div class="product-card__middle-wrap"><p class="product-card__price price"><span class="price__wrap"><ins class="price__lower-price">от `+price2+` ₽/мес.</ins><del>`+price1+` ₽/мес.</del></span></p><h2 class="product-card__brand-wrap product-card__brand-wrap--no-wrap"><span class="product-card__name product-card__id">№ `+id+`</span><span class=""> / </span><span class="product-card__brand">`+name+`</span><span class="product-card__name product-card__name3"><span class=""> / </span>`+name3+` / Готовые сайты</span></h2></div><div class="product-card__bottom-wrap"><p class="product-card__rating-wrap"><span class="address-rate-mini address-rate-mini--sm">4.`+rndInt+`</span><span class="product-card__count">`+rndInt1+` оценки</span></p><p class="product-card__sizes j-sizes"></p><p class="product-card__order-wrap"><a class="product-card__add-basket j-add-to-basket btn-main-sm" href="https://wa.me/79603570433?text=https://tilda-ws.github.io/templates/ _Добрый день хочу заказать сайт №`+id+`!" target="_blank">Заказать</a></p></div></div></article>
 
 `);
 }
@@ -2811,7 +2811,7 @@ $(".swiper-slide-active").mouseleave(function(){$(this).removeClass('hover');});
 $("[data-remodal-target=modal]").click(function(){var data_id=$(this).attr('data--id');
 	console.log('data_id--- '+ data_id);
 $('.remodal-img').attr('src','C:/Users/user/Downloads/megagroup2305-png/'+data_id+'.png');
-$('.remodal-btn').attr('href','https://wa.me/79603570433?text=https://wb.github.io/ _Добрый день хочу заказать сайт № '+data_id+'.');
+$('.remodal-btn').attr('href','https://wa.me/79603570433?text=https://tilda-ws.github.io/templates/ _Добрый день хочу заказать сайт № '+data_id+'.');
 $('.remodal-btn').html('Заказать сайт №'+data_id+'');
 });
 var article12=$('.article12').html();
