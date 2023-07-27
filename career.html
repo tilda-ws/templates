@@ -735,6 +735,14 @@ $('.remodal-btn').html('Заказать сайт №'+data_id2+'');
 });
 $('.menu-burger__main-list-link').click(function() {var j_menu_item121=$(this).attr('href');window.location.href = j_menu_item121;$('html, body').animate({scrollTop: 0}, 0);location.reload();});
 
+$('#searchInput').keypress(function (e) {
+ var key = e.which;
+ if(key == 13)  // the enter key code
+  {
+    $('.btn__search1222').click();
+    return false;
+  }
+});
 $('.btn__search1222').click(function() {
 console.log("click!!!");
 var searchInput=$('#searchInput').val();
@@ -752,6 +760,8 @@ window.location.href = window_location_href;
 // location.reload();
 }
 });
+
+
 </script>
 <script>
 $('.j-menu-item').click(function() {var j_menu_item12=$(this).attr('href');window.location.href = j_menu_item12;$('html, body').animate({scrollTop: 0}, 0);location.reload();});
