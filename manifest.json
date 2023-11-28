@@ -1,0 +1,23 @@
+{
+ "name": "Готовые сайты от 950 ₽, каталог сайтов, созда",
+ "short_name": "tilda-ws",
+ "start_url": "https://tilda-ws.github.io/templates",
+ "description": "Более 5000 готовых сайтов. Разработка сайтов. Купить готовые сайты. Создание сайтов для бизнеса. ",
+ "display": "fullscreen",
+ "orientation": "portrait",
+ "theme_color": "#fff",
+ "background_color": "#b30f97",
+ "icons": [
+  {
+   "src": "https://tilda-ws.github.io/templates/i/tildafavicon_1.ico",
+   "sizes": "32x32",
+   "type": "image/vnd.microsoft.icon"
+  },
+  {
+   "src": "https://tilda-ws.github.io/templates/i.webp",
+   "sizes": "660x440",
+   "type": "image/webp"
+  }
+ ],
+ "scope": "https://tilda-ws.github.io/templates"
+}
